@@ -10,7 +10,7 @@ namespace PrinterApp
         public static void Main(string[] args)
         {
 
-            Console.WriteLine($"Hello, World");
+            Console.WriteLine("Hello, World");
 
             //start a webserver on the default port
             string serverPath;

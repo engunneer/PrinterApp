@@ -149,7 +149,7 @@ namespace PrinterApp.Models
             string filename = context.Request.Url.AbsolutePath;
             Console.WriteLine(filename);
             filename = filename.Substring(1);
-
+            var s = context.Request.QueryString[0];
             if (string.IsNullOrEmpty(filename))
             {
                 foreach (string indexFile in _indexFiles)
